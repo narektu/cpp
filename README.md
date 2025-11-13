@@ -1,4 +1,4 @@
-# 🧩 C++ Notes | Practice | Lesson
+# 🧩 C++ Practice
 
 A collection of small modular C++ projects to practice algorithms, OOP and system-level programming.
 
