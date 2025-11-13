@@ -1,0 +1,12 @@
+# Build artifacts
+build/
+*.o
+*.exe
+app_basics
+run_tests
+
+*.csv
+
+# IDE settings
+.vscode/
+.DS_Store
