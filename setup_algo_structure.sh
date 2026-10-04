@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Базовые пути
+# Base paths
 INCLUDE_DIR="projects/algorithms/include/backtracking"
 SRC_DIR="projects/algorithms/src/backtracking"
 
@@ -23,17 +23,17 @@ files=(
 )
 
 for file in "${files[@]}"; do
-    # 1. Создаем хедер (.h)
+    # 1. Create header (.h)
     header_file="$INCLUDE_DIR/$file.h"
     if [ ! -f "$header_file" ]; then
         echo "#pragma once" > "$header_file"
         echo "" >> "$header_file"
-        echo "// Функция для запуска примера по теме $file" >> "$header_file"
+        echo "// Function to run the example for $file" >> "$header_file"
         echo "void run_$file();" >> "$header_file"
         echo "Created $header_file"
     fi
 
-    # 2. Создаем реализацию (.cpp)
+    # 2. Create implementation (.cpp)
     src_file="$SRC_DIR/$file.cpp"
     if [ ! -f "$src_file" ]; then
         echo "#include \"../../include/backtracking/$file.h\"" > "$src_file"

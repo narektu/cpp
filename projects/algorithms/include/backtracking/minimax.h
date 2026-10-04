@@ -1,4 +1,4 @@
 #pragma once
 
-// Функция для запуска примера по теме minimax
+// Function to run the example for minimax
 void run_minimax();

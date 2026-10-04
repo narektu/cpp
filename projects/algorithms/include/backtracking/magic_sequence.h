@@ -1,4 +1,4 @@
 #pragma once
 
-// Функция для запуска примера по теме magic_sequence
+// Function to run the example for magic_sequence
 void run_magic_sequence();

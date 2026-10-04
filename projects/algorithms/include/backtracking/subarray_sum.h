@@ -1,4 +1,4 @@
 #pragma once
 
-// Функция для запуска примера по теме subarray_sum
+// Function to run the example for subarray_sum
 void run_subarray_sum();

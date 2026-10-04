@@ -1,4 +1,4 @@
 #pragma once
 
-// Функция для запуска примера по теме n_queens
+// Function to run the example for n_queens
 void run_n_queens();
