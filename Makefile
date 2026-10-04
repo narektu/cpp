@@ -12,7 +12,8 @@ TEST_BASICS_TARGET = run_tests_basics
 TEST_BASICS_SRC = tests/basics/test_manager.cpp
 # ==========================================
 # ALGORITHMS ==========================================
-ALGO_SRC = projects/algorithms/src/graph.cpp
+ALGO_SRC = projects/algorithms/src/graph.cpp \
+           $(wildcard projects/algorithms/src/backtracking/*.cpp)
 ALGO_OBJS = $(ALGO_SRC:.cpp=.o)
 
 APP_ALGO_TARGET = app_algo
