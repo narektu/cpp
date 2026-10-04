@@ -1,4 +1,4 @@
 #pragma once
 
-// Функция для запуска примера по теме wildcard_matching
+// Function to run the example for wildcard_matching
 void run_wildcard_matching();

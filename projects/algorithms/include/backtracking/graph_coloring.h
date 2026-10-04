@@ -1,4 +1,4 @@
 #pragma once
 
-// Функция для запуска примера по теме graph_coloring
+// Function to run the example for graph_coloring
 void run_graph_coloring();

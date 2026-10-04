@@ -1,4 +1,4 @@
 #pragma once
 
-// Функция для запуска примера по теме knight_tour
+// Function to run the example for knight_tour
 void run_knight_tour();
